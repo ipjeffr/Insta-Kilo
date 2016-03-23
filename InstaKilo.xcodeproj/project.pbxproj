@@ -25,6 +25,7 @@
 		310F6D0B1CA30A3C003EFA9C /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 310F6D001CA30A3C003EFA9C /* photo-frame.png */; };
 		310F6D0C1CA30A3C003EFA9C /* redPanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 310F6D011CA30A3C003EFA9C /* redPanda.jpg */; };
 		310F6D0D1CA30A3C003EFA9C /* wolvesHowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 310F6D021CA30A3C003EFA9C /* wolvesHowl.jpg */; };
+		310F6D101CA32318003EFA9C /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 310F6D0F1CA32318003EFA9C /* CollectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		310F6D001CA30A3C003EFA9C /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
 		310F6D011CA30A3C003EFA9C /* redPanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redPanda.jpg; sourceTree = "<group>"; };
 		310F6D021CA30A3C003EFA9C /* wolvesHowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolvesHowl.jpg; sourceTree = "<group>"; };
+		310F6D0E1CA32318003EFA9C /* CollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderView.h; sourceTree = "<group>"; };
+		310F6D0F1CA32318003EFA9C /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,10 @@
 		310F6CDC1CA30886003EFA9C /* InstaKilo */ = {
 			isa = PBXGroup;
 			children = (
-				310F6CE01CA30886003EFA9C /* AppDelegate.h */,
-				310F6CE11CA30886003EFA9C /* AppDelegate.m */,
 				310F6CE31CA30886003EFA9C /* ViewController.h */,
 				310F6CE41CA30886003EFA9C /* ViewController.m */,
+				310F6D0E1CA32318003EFA9C /* CollectionHeaderView.h */,
+				310F6D0F1CA32318003EFA9C /* CollectionHeaderView.m */,
 				310F6CF41CA309C5003EFA9C /* CollectionViewCell.h */,
 				310F6CF51CA309C5003EFA9C /* CollectionViewCell.m */,
 				310F6CE61CA30886003EFA9C /* Main.storyboard */,
@@ -101,6 +104,8 @@
 		310F6CDD1CA30886003EFA9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				310F6CE01CA30886003EFA9C /* AppDelegate.h */,
+				310F6CE11CA30886003EFA9C /* AppDelegate.m */,
 				310F6CF71CA30A3B003EFA9C /* IKPics */,
 				310F6CDE1CA30886003EFA9C /* main.m */,
 			);
@@ -210,6 +215,7 @@
 				310F6CE21CA30886003EFA9C /* AppDelegate.m in Sources */,
 				310F6CF61CA309C5003EFA9C /* CollectionViewCell.m in Sources */,
 				310F6CDF1CA30886003EFA9C /* main.m in Sources */,
+				310F6D101CA32318003EFA9C /* CollectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
